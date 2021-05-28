@@ -60,6 +60,19 @@ $catalog[104] = [
     "publisher" => "Prentice Hall",
     "isbn" => '007-6092046981'
 ];
+$catalog[105] = [
+    "title" => "Artificial Intelligence: A Modern Approach",
+    "img" => "img/media/artificial_intelligence.jpg",
+    "genre" => "Tech",
+    "format" => "Audio",
+    "year" => 2011,
+    "category" => "Books",
+    "authors" => [
+        "Peter Norvig Stuart J. Russell"
+    ],
+    "publisher" => "Prentice Hall",
+    "isbn" => '9781292153964'
+];
 //Movies
 $catalog[201] = [
     "title" => "Forrest Gump",
