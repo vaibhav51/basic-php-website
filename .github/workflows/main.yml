@@ -1,4 +1,4 @@
-name: PHP Linter
+name: Code Linter
 on: [push]
 jobs:
   lint_code:
@@ -7,13 +7,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
-      - name: Lint Code Base
+      - name: Lint PHP Code
         uses: github/super-linter@v4
         env:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_PHP_BUILTIN: true
-          VALIDATE_CSS: true
+
+      - name: Lint HTML Code
+        uses: github/super-linter@v4
+        env:
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_ALL_CODEBASE: true
           VALIDATE_HTML: true
+
+      - name: Lint CSS Code
+        uses: github/super-linter@v4
+        env:
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_ALL_CODEBASE: true
+          VALIDATE_CSS: true
+
+      - name: Lint Javascript Code
+        uses: github/super-linter@v4
+        env:
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_ALL_CODEBASE: true
           VALIDATE_JAVASCRIPT_ES: true
