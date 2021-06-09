@@ -16,7 +16,7 @@ II.) Listing and Sorting Inventory Items
 
 Media library contains quite a bit of information, too much to fit in simple variables. A PHP array will be perfect for the task, and we’ll explore all the ins and outs of working with arrays to store sets of related data. Use the data from the array to populate our category pages that shows a list of all the media in our catalog.
 
-We want to have separate pages for the different categories of media items, but the layout should be the same on each of these pages. We’ll work with PHP functions, blocks of code that can be called from other blocks of code, to make sure that media items are displayed the same across all list pages. PHP comes with a large number of native functions, but it also provides a way to create our own.
+We want to have separate pages for the different categories of media items, but the layout should be the same on each of these pages. We’ll work with PHP functions, blocks of code that can be called from other blocks of code, to make sure that media items are displayed the same across all list pages. PHP comes with a large number of native functions, but it also provides a way to create our own..
 
 III.) Adding a Basic Form
 
