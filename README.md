@@ -20,7 +20,7 @@ We want to have separate pages for the different categories of media items, but 
 
 III.) Adding a Basic Form
 
-PHP does more than just make a set of HTML files easier to maintain. It also adds advanced functionality to a site that HTML and CSS alone cannot achieve, like sending an email. We’ll create a suggestion form for our website, allowing users to enter a media suggestion into an HTML form and then using PHP to process the form submission.
+PHP does more than just make a set of HTML files easier to maintain. It also adds advanced functionality to a site that HTML and CSS alone cannot achieve, like sending an email. We’ll create a suggestion form for our website, allowing users to enter a media suggestion into an HTML form and then using PHP to process the form submission..
 
 IV.) Enhancing a Form
 
