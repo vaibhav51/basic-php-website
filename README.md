@@ -1,5 +1,5 @@
 Basic PHP Website
-=============================================
+==============================================
 
 This project, build a simple website using the PHP programming language. The web site, a media library, will let you organize and display your Books, Movies and Music. Could easily use this project to create a website that lets you organize and display any type of item: Branch Locations, Products, Services, Events, even Courses.
 
